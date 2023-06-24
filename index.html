@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Shop</title>
+    <link rel="stylesheet" href="Css/Mainpage css.css">
+    <link rel="stylesheet" href="Css/resposive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/061abc6adb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="nav-left">
+                <a href="#"><p><span>MY</span>SHOP</p></a>
+            </div>
+            <div class="nav-right">
+                <a href="catagories.html">CATEGORIES</a>
+                <a href="Skull T-Shirt.html" class="rsdisnon">PRODUCT PAGE</a>
+                <p style="display: flex; flex-direction: column; align-items: center; justify-content: center;" id="dispcart"><i class="fa-solid fa-cart-shopping fa-lg"></i><span id="cart-count"></span></p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="showcart" id="showcart">
+            <i class="fa-solid fa-xmark fa-xl" id="cancelshowcart"></i>
+            <h3>Your Shopping Cart (<span id="cartmaincount"></span>)</h3>
+            <div class="cartproducts"></div>
+            <div class="total-cart-prc">
+                <p><b>------------------------------------------------</b></p>
+                <p style="font-size: 20px;"><b>Subtotal <span id="cartsubt">00</span>.00$</b></p>
+                <div class="clear"><p class="clearcart">Clear Your Cart</p>
+                <i class="fa-solid fa-square-xmark" style="font-size: 35px;" id="clearcart"></i>
+            </div>
+            </div>
+        </div>
+        <section class="banner">
+            <div class="banner-container">
+                <div class="banner-left">
+                    <img src="img/front-bg.jpg" alt="">
+                    <p>Live Comfortably</p>
+                </div>
+                    <div class="lft-sec">
+                        <img src="img/shoe2.webp" alt="">
+                        <p>Shooes</p>
+                    </div>
+                    <div class="rgt-sec">
+                        <div class="square fst-squ">
+                            <img src="img/kitchen.webp" alt="">
+                            <p>Kitchen</p></div>
+                        <div class="square">
+                            <img src="img/front-md.jpg-org" alt="">
+                            <p>Electronics</p></div>
+                    </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="products-container">
+                <p class="products-header">Products we are proud of</p>
+                <div class="pd-cards">
+                    <a href="Real Madrid T-Shirt.html"><div class="pd-card">
+                        <img src="img/realmadrid jer.jpg" alt="">
+                        <p>Real Madrid T-Shirt</p>
+                        <h3>50$</h3>
+                    </div></a>
+                    <a href="Classic Brown Shoe.html"><div class="pd-card">
+                        <img src="img/shoe-pr3.jpg" alt="">
+                        <p>Cassic Brown Shoe</p>
+                        <h3>70$</h3>
+                    </div></a>
+                    <a href="Blue Table Lamp.html"><div class="pd-card">
+                        <img src="img/blue-light lamp.webp" alt="">
+                        <p>Blue Table Lamp</p>
+                        <h3>35$</h3>
+                    </div></a>
+                    <a href="Gejst Shelf.html"><div class="pd-card">
+                        <img src="img/kitchen-pr.jpg" alt="">
+                        <p>Gejst Shelf Black</p>
+                        <h3>100$</h3>
+                    </div></a>
+                    <a href="Pop-Up toster.html"><div class="pd-card">
+                        <img src="img/pop.png" alt="">
+                        <p>Pop-UP Toaster</p>
+                        <h3>40$</h3>
+                    </div></a>
+                    <a href="Yellow Night Lamp.html"><div class="pd-card">
+                        <img src="img/yellow-lamp.jpg" alt="">
+                        <p>Yellow Night Lamp</p>
+                        <h3>30$</h3>
+                    </div></a>
+                    <a href="Green-Tree T-Shirt.html"><div class="pd-card">
+                        <img src="img/t-shirt.webp" alt="">
+                        <p>Green-Tree T-Shirt</p>
+                        <h3>30$</h3>
+                    </div></a>
+                    <a href="Casual Sneaker.html"><div class="pd-card">
+                        <img src="img/shoe-pr2.jpg" alt="">
+                        <p>Casual Sneaker</p>
+                        <h3>45$</h3>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <section class="epl">
+            <div class="epl-container">
+                <div class="epl-headings">
+                   <div class="epl-heading">
+                    <h3>Which EPL Kit is The Most Fashionable?</h3>
+                    <p class="text">Its finally here! Here with us collect every amezing 2023 English Premier league Kits.</p>
+                    <p class="btn-black">SHOP NOW</p>
+                </div>
+                </div>
+                <div class="epl-img">
+                    <img src="img/Premier_League__kits_.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="trending">
+            <div class="trending-container">
+                <div class="trending-header dblclick-select">
+                    <h3>Trending Now</h3>
+                    <div class="arrow">
+                        <span class="btn-black" id="arrow-left"><i class="fa-solid fa-arrow-left"></i></span>
+                        <span class="btn-black" id="arrow-right"><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="trending-products">
+                   <a href="Juventus T-Shirt.html"><div class="trending-product">
+                        <img src="img/Juventus-Jersey.jpg" alt="">
+                        <p>Juventus T-Shirt</p>
+                        <h3>35$</h3>
+                    </div></a>
+                    <a href="Blender-Machine.html"><div class="trending-product">
+                        <img src="img/Blender.jpg" alt="">
+                        <p>Blender Machine</p>
+                        <h3>70$</h3>
+                    </div></a>
+                    <a href="Kitchen Wall-Shelf.html"><div class="trending-product">
+                        <img src="img/kitchen wall shelf.webp" alt="">
+                        <p>Kitchen Wall-Shelf</p>
+                        <h3>65$</h3>
+                    </div></a>
+                    <a href="Black-Shoe.html"><div class="trending-product">
+                        <img src="img/shoe-pr5.jpg" alt="">
+                        <p>Black Shoe</p>
+                        <h3>25$</h3>
+                    </div></a>
+                    <a href="Hanging Light.html"><div class="trending-product">
+                        <img src="img/hanging light.webp" alt="">
+                        <p>Hanging Light</p>
+                        <h3>30$</h3>
+                    </div></a>
+                    <a href="Arsenal T-Shirt.html"><div class="trending-product">
+                        <img src="img/Arsenal.jpg" alt="">
+                        <p>Arsenal T-Shirt</p>
+                        <h3>40$</h3>
+                    </div></a>
+                    <a href="Water Heater.html"><div class="trending-product">
+                        <img src="img/water-heater.jpg" alt="">
+                        <p>Water Heater</p>
+                        <h3>130$</h3>
+                    </div></a>
+                    <a href="Sports Shoe.html"><div class="trending-product">
+                        <img src="img/shoe-pr4.jpg" alt="">
+                        <p>Sports Shoe</p>
+                        <h3>30$</h3>
+                    </div></a>
+                    <a href="Gray-Table Lamp.html"><div class="trending-product">
+                        <img src="img/lamp3.jpg" alt="">
+                        <p>Gray Table-Lamp</p>
+                        <h3>35$</h3>
+                    </div></a>
+                    <a href="Skull T-Shirt.html"><div class="trending-product">
+                        <img src="img/t-shirt 2.jpg" alt="">
+                        <p>Skull T-Shirt</p>
+                        <h3>20$</h3>
+                    </div></a>
+                    <a href="Multiuse-Shelf.html"><div class="trending-product">
+                        <img src="img/multiuse shelf.jpg" alt="">
+                        <p>Multiuse Shelf</p>
+                        <h3>85$</h3>
+                    </div></a>
+                    <a href="Party-Speaker.html"><div class="trending-product">
+                        <img src="img/party speaker.jpg" alt="">
+                        <p>Party-Speaker</p>
+                        <h3>70$</h3>
+                    </div></a>
+                    <a href="Pop-Up toster.html"><div class="trending-product">
+                        <img src="img/pop.png" alt="">
+                        <p>Pop-Up Toaster</p>
+                        <h3>40$</h3>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <section class="Shoooes">
+            <div class="epl-container">
+                <div class="epl-headings">
+                   <div class="epl-heading">
+                    <h3>Sneakers You Must Have In Your Collection</h3>
+                    <p class="text">Blending sustainability with comfort, Just For You. Start your collection now.</p>
+                    <p class="btn-black">SHOP NOW</p>
+                </div>
+                </div>
+                <div class="epl-img">
+                    <img src="img/shoooos2.webp" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-upper-text">
+                <h2>STAY SUSTAINABLE AND SUBSCRIBE NOW</h2>
+            <p><input type="email" name="email" placeholder="Enter Your Email"><span>Subscribe</span></p>
+            </div>
+            
+            <div class="footer-below-text">
+                <p>About</p>
+                <p>Store Location</p>
+                <p>FAQs</p>
+                <p>Career</p>
+                <p>Contact Us</p>
+            </div>
+             <p>Built With Passion</p>
+        </div>
+    </footer>
+    <!-- --------------ignore this code but its mandotary too keep it here---------------- -->
+    <div class="thanks" id="prc"></div>
+    <div class="thanks" id="prname"></div>
+    
+    <script src="Js/Mainpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.products-container {
+    margin: 20px auto;
+  }
+.cateheader{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+.cateselect{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+.cateselect p{
+    width: fit-content;
+    border: 2px solid rgb(155, 155, 155);
+    padding: 2px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.cateselect p:hover{
+    border: 2px solid black;
+    opacity: 1;
+}
+.cate-cards{
+    display: none;
+}
+.cate-cards.activcate{
+    display: block;
+}
